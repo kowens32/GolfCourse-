@@ -25,8 +25,8 @@ while player == False:
             print('you lose!', computer, 'cut', player)
         else:
             print('you win!', player, 'covers', computer)
-    elif player == 'Scissors':
-        if player == 'rock':
+    elif player == 'scissors':
+        if computer == 'rock':
             print('you lose!', computer, 'smashes', player)
         else:
             print('you win!', player, 'cut', computer)
